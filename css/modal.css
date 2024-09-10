@@ -154,12 +154,15 @@ body .ui-selectonemenu, body .ui-inputfield {
 }
 
 
-
-
 body #filterDialog .ui-dialog-titlebar {
     background: #2196f3 !important;
     color: #fff;
     font-weight: 700;
     border-bottom: 0 none;
     padding: 1.5rem;
+}
+
+
+body .ui-selectonemenu-panel{
+    width: 20.5% !important;
 }
