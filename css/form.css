@@ -38,8 +38,15 @@
 
 
 
-body .ui-radiobutton .ui-radiobutton-box.ui-state-active {
+body #createDialog .ui-radiobutton .ui-radiobutton-box.ui-state-active {
     border-color: #14c56b !important;
     background: #14c56b !important;
+    color: #fff;
+}
+
+
+body #updateDialog .ui-radiobutton .ui-radiobutton-box.ui-state-active {
+    border-color: #ffa503 !important;
+    background: #ffa503 !important;
     color: #fff;
 }
