@@ -35,10 +35,7 @@ body .ui-confirm-dialog .ui-dialog-titlebar .ui-icon-closethick {
     border: 1px solid !important;
 }
 
-#createDialog_content .crud-form-save-button {
-    background: #14c56b !important;
-    border-color: #14c56b !important;
-}
+
 
 #updateDialog_content .crud-form-save-button {
     background: #ffa503 !important;
