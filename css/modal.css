@@ -37,10 +37,7 @@ body .ui-confirm-dialog .ui-dialog-titlebar .ui-icon-closethick {
 
 
 
-#updateDialog_content .crud-form-save-button {
-    background: #ffa503 !important;
-    border-color: #ffa503 !important;
-}
+
 
 /* Styles généraux des dialogues */
 #createDialog,
