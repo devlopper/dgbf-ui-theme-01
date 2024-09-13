@@ -38,6 +38,11 @@ body .ui-autocomplete .ui-autocomplete-dropdown {
     color: #6c757d !important;
 }
 
+body .ui-autocomplete .ui-autocomplete-input.ui-autocomplete-dd-input {
+    padding: .5rem .5rem;
+    border-radius: 10px !important;
+}
+
 .app-form-input select {
     display: block;
     width: 100%;
