@@ -19,6 +19,12 @@
     width: 100% !important;
 }
 
+
+.ui-autocomplete{
+    width: 100% !important;
+    float: right !important;
+}
+
 .app-form-input select {
     display: block;
     width: 100%;
