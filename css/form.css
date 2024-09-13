@@ -26,10 +26,10 @@ body .ui-autocomplete{
 }
 
 body .ui-autocomplete .ui-autocomplete-dropdown {
-    position: absolute;
-    height: auto;
-    width: 2.357rem;
-    right: 0;
+    position: absolute !important;
+    height: auto !important;
+    width: 2.357rem ;
+    right: 0 !important;
     margin: 0 !important;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
