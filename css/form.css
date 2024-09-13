@@ -20,7 +20,7 @@
 }
 
 
-.ui-autocomplete{
+body .ui-autocomplete{
     width: 100% !important;
     float: right !important;
 }
