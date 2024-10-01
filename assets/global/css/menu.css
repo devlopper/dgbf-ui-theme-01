@@ -20,3 +20,10 @@ font-family: var(--vz-vertical-menu-sub-item-font-family);
 color: var(--vz-vertical-menu-item-active-color);
 text-decoration: none !important;
 }
+
+
+.menuactive{
+    background-color: var(--vz-sidebar-user-bg) !important;
+    border-radius: var(--vz-border-radius) !important;
+    margin-right: 5px !important;
+}
