@@ -74,3 +74,13 @@ body #updateDialog .ui-radiobutton .ui-radiobutton-box.ui-state-active {
     background: #ffa503 !important;
     color: #fff;
 }
+
+.app-form-input .p-datepicker{
+    width: 100% !important;
+}
+
+.p-datepicker:not(.p-datepicker-inline){
+    box-shadow: none !important;
+}
+
+

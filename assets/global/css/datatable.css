@@ -10,12 +10,13 @@ body .ui-datatable .ui-datatable-data>tr>td{
 }
 
 body .ui-tabmenu .ui-tabmenu-nav .ui-tabmenuitem  a {
-    color: #000 !important;
+    color: var(--vz-secondary-color) !important;
     font-size: 0.850rem !important;
     font-family: var(--vz-body-font-family) !important;
     font-weight: 200 !important;
     text-align: center !important;
     border-right: 1px solid #dee2e64b;
+    border-radius: 0px !important;
 }
 
 body .ui-datatable thead th {
@@ -57,4 +58,31 @@ body .ui-datatable .ui-paginator.ui-paginator-bottom, body .ui-datatable .ui-pag
     border-width: 0 0 0 0 !important;
     border-radius: 0;
     background: inherit !important;
+}
+
+
+body .ui-tabmenu .ui-tabmenu-nav {
+    background: inherit !important;
+    border-radius: 0px !important;
+}
+
+body .ui-tabmenu .ui-tabmenu-nav .ui-tabmenuitem {
+    list-style: none;
+    padding: 0;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+    background: inherit !important;
+    color: #6c757d;
+    top: 0;
+    margin: 0;
+    border-bottom: 2px solid #dee2e6;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    transition: background-color .2s, color .2s, border-color .2s, box-shadow .2s, opacity .2s;
+    flex-shrink: 0;
 }

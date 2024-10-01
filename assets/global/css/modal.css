@@ -125,9 +125,9 @@ body .ui-paginator .ui-paginator-pages .ui-paginator-page.ui-state-active {
 }
 
 
-.ui-corner-all{
+/* .ui-corner-all{
     border-radius: 10px !important;
-}
+} */
 
 body .ui-dialog .ui-dialog-content {
     background: var(--vz-secondary-bg) !important;
@@ -160,4 +160,40 @@ body #filterDialog .ui-dialog-titlebar {
 
 body .ui-selectonemenu-panel{
     width: 20.5% !important;
+}
+
+
+body .ui-datepicker.ui-input-overlay {
+    border: 0 none;
+    box-shadow: 0 2px 4px -1px rgb(0 0 0 / 0%), 0 4px 5px 0 rgb(0 0 0 / 5%), 0 1px 10px 0 rgb(0 0 0 / 0%) !important;
+    padding: 10px !important;
+    border-radius: 14px !important;
+    background: var(--vz-secondary-bg) !important;
+    border-right: 1px solid var(--vz-secondary-bg)  !important;
+}
+
+
+body .ui-datepicker .ui-datepicker-calendar td.ui-datepicker-today>a, body .ui-datepicker .ui-datepicker-calendar td.ui-datepicker-today>span, body .ui-datepicker .ui-datepicker-calendar td.ui-datepicker-current-day>a, body .ui-datepicker .ui-datepicker-calendar td.ui-datepicker-current-day>span {
+    /* background: var(--vz-success-bg-subtle) !important; */
+    color: #000 !important;
+    font-weight: 600;
+    border: 0 none;
+}
+
+body .ui-datepicker .ui-datepicker-header {
+    margin: 0;
+    padding: 1rem;
+    line-height: normal;
+    /* background: var(--vz-success-bg-subtle) !important; */
+    color: #495057;
+    font-weight: 600;
+    border: none !important;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+}
+
+body .ui-datepicker .ui-datepicker-calendar td>a.ui-state-active, body .ui-datepicker .ui-datepicker-calendar td>span.ui-state-active {
+    /* background: var(--vz-success-bg-subtle) !important; */
+    color: #495057;
+    border: 0 none;
 }
