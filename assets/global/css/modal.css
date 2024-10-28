@@ -158,9 +158,51 @@ body #filterDialog .ui-dialog-titlebar {
 }
 
 
-body .ui-selectonemenu-panel{
-    width: 20.5% !important;
+body .ui-selectonemenu-panel {
+    min-width: 20.5% !important;
+    max-width: 850px !important;
 }
+
+
+
+/* Écrans petits (mobiles) */
+@media (max-width: 600px) {
+    body .ui-selectonemenu-panel {
+        min-width: 80% !important; /* Ajuste selon tes besoins */
+        max-width: 100% !important;
+    }
+}
+
+/* Écrans moyens (tablettes) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body .ui-selectonemenu-panel {
+        min-width: 50% !important; /* Ajuste selon tes besoins */
+        max-width: 70% !important;
+    }
+}
+
+/* Écrans larges (desktops) */
+@media (max-width: 1024px) {
+    body .ui-selectonemenu-panel {
+        min-width: 20.5% !important;
+        max-width: 62% !important;
+    }
+}
+
+@media (max-width: 1440px) {
+    body .ui-selectonemenu-panel {
+        min-width: 20.5% !important;
+        max-width: 45% !important;
+    }
+}
+
+/* @media (max-width: 1440px) {
+    body .ui-selectonemenu-panel {
+        min-width: 20.5% !important;
+        max-width: 0% !important;
+    }
+} */
+
 
 
 body .ui-datepicker.ui-input-overlay {
@@ -197,3 +239,7 @@ body .ui-datepicker .ui-datepicker-calendar td>a.ui-state-active, body .ui-datep
     color: #495057;
     border: 0 none;
 }
+
+
+
+  /* btn_annuler/btn_transmettre/btn_rejeter/btn_signer/btn_refuser/btn_appliquer */
